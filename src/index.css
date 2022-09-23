@@ -34,9 +34,12 @@
 body{
     background: url(assets/df808f6bfc95b04ecfa02502c905ca7e.jpg)
     center / cover no-repeat fixed;
-    /* box-shadow: 100px -100px 1000px 2px inset; */
 }
 
+.container {
+    box-shadow: 50px -50px 100px 2px inset;
+    padding: 30px;
+}
 .aviso {
     margin: 3% 5%;
     padding: 0 12%;
@@ -122,5 +125,10 @@ body{
     max-height: auto;
     filter: brightness(40%);
     border-radius: 50%;
+    filter: drop-shadow(-5px 5px 10px black);
+}
+
+.stewie img:hover {
+    background-color: blue;
 }
 
